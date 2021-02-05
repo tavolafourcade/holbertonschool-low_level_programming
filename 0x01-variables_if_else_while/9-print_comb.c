@@ -9,19 +9,21 @@
 
 int main(void)
 {
-int num = '0';
+char ch;
 
-	while (num>='0' && num <= '9')
-	{
-		putchar(num);
-		if (num != '9')
-		{
-		putchar(',');
-		putchar(' ');
-		}
-		num++;
-	}
+for (ch = 48; ch<=57; ch++)
+{
+if (ch == 57)
+{
+	putchar(ch);
 	putchar('\n');
-	return (0);
-
+	break;
+}	
+	putchar(ch);
+	putchar(',');
+	putchar(' ');
+	putchar('\n');
+	
+}
+return (0);
 }
