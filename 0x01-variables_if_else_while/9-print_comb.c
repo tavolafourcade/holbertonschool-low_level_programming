@@ -9,21 +9,18 @@
 
 int main(void)
 {
-char ch;
+int ch;
 
 for (ch = 48; ch<=57; ch++)
 {
-if (ch == 57)
-{
 	putchar(ch);
-	putchar('\n');
-	break;
-}	
-	putchar(ch);
+if (ch >= 48 && ch<=56)
+{	
 	putchar(',');
 	putchar(' ');
+}else{
 	putchar('\n');
-	
 }
 return (0);
+}
 }
