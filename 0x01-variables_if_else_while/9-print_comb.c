@@ -11,16 +11,20 @@ int main(void)
 {
 int ch;
 
-for (ch = 48; ch<=57; ch++)
+for (ch = 48; ch <= 57; ch++)
 {
 	putchar(ch);
-if (ch >= 48 && ch<=56)
+if (ch >= 48 && ch <= 56)
 {	
 	putchar(',');
 	putchar(' ');
-}else{
+}
+
+if(ch == 57)
+{
 	putchar('\n');
 }
-return (0);
+
 }
+return(0);
 }
