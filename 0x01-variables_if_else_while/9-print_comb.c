@@ -14,12 +14,13 @@ int num = '0';
 	while (num>='0' && num <= '9')
 	{
 		putchar(num);
-		if (num != '9')
+		if (num = '9')
 		{
 			break;
 		}
 		putchar(',');
 		putchar(' ');
+		num++;
 	}
 	putchar('\n');
 	return (0);
