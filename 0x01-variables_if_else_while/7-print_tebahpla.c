@@ -9,9 +9,9 @@
 
 int main(void)
 {
-char asd;
-for (asd = 'z' ; asd >= 'a'; asd--)
-putchar(asd);
-putchar('\n');
-return (0);
+int letter;
+	while (letter >= 'a' && letter <= 'z')
+		putchar(letter--);
+	putchar('\n');
+	return (0);
 }
