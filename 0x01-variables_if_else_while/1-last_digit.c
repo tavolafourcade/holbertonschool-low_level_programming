@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - It generates a number and prints if the last digit of n is >5 , < 6 or =0
+ * main - It generates a number and prints if 
+ * the last digit of n is >5 , < 6 or =0
  *
  * Return: 0 if it/s successful
  */
