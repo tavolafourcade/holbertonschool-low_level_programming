@@ -3,7 +3,7 @@
 /**
  * main - It will print alphabet in lowercase\n -q -e
  *
- * Return: Always 0 (0 = Success)
+ * Return: 0
  */
 int main(void)
 {
