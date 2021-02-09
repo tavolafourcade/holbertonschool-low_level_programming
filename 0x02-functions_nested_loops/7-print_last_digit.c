@@ -11,6 +11,6 @@ int lastValue = n % 10;
 
 if (n < 0)
 	lastValue = lastValue * -1;
-_putchar(lastValue);
+_putchar(lastValue + '0');
 return (lastValue);
 }
