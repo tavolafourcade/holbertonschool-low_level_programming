@@ -2,9 +2,8 @@
 /**
  *main - Entry point
  *
- *Description: trying function that prints if integer is positive or negative.
- *positive, negative, or zero.
- *Return: Returns 0.
+ *Description: prints if integer is positive or negative or zero.
+ *Return: 0.
  */
 int main(void)
 {
