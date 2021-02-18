@@ -19,15 +19,15 @@ void rev_string(char *s)
 }
 /**
 *_strlen - returns the total length of a string
-*@c: array
+*@s: array
 *Return: the total length
 */
-int _strlen(char *c)
+int _strlen(char *s)
 {
 int i;
-int length = 0;
+int len = 0;
 
-for (i = 0; c[i] != '\0'; ++i)
-	length++;
-return (length);
+for (i = 0; s[i] != '\0'; ++i)
+	len++;
+return (len);
 }
