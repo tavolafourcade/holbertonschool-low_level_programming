@@ -6,15 +6,16 @@
  */
 void rev_string(char *s)
 {
-	int i, j;
-	char length = _strlen(s);
+	char len = _strlen(s);
+	int i;
+	int j;
 
-	for (i = 0, j = length - 1; i < j; i++, j--)
+	for (i = 0, j = len - 1; i < j; i++, j--)
 	{
-		char temporal = s[i];
+		char tmp = s[i];
 
 		s[i] = s[j];
-		s[j] = temporal;
+		s[j] = tmp;
 	}
 }
 /**
