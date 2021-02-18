@@ -6,29 +6,20 @@
  */
 void rev_string(char *s)
 {
-	char len = _strlen(s);
-	int i;
-	int j;
+	int n = 0, ln1 = 0, ln2 = 0;
+	char t = ' ';
 
-	for (i = 0, j = len - 1; i < j; i++, j--)
+	while (s[ln1] != '\0')
 	{
-		char tmp = s[i];
-
-		s[i] = s[j];
-		s[j] = tmp;
+		ln1++;
 	}
-}
-/**
-*_strlen - returns the total length of a string
-*@s: array
-*Return: the total length
-*/
-int _strlen(char *s)
-{
-int i;
-int len = 0;
 
-for (i = 0; s[i] != '\0'; ++i)
-	len++;
-return (len);
+	ln2 = ln1 - 1;
+
+	for (n = 0; n < ln1 / 2; ln2--,  n++)
+	{
+		t = s[n];
+		s[n] = s[ln2];
+		s[ln2] = t;
+	}
 }
