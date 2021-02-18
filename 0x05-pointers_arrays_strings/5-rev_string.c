@@ -6,7 +6,7 @@
  */
 void rev_string(char *s)
 {
-	int i, j;
+	int i, j = 0;
 	char length = _strlen(s);
 	char temporal;
 
