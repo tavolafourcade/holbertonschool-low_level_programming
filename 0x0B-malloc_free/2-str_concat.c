@@ -7,6 +7,7 @@
  * @s2: given string 2, which is concatenated.
  * Return: Pointer to allocated memory.
  */
+char *str_concat(char *s1, char *s2)
 {
 	char *concatenar;
 	unsigned int i, j, cp, r, final_leng;
