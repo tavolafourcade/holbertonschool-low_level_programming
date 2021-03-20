@@ -6,12 +6,12 @@
  */
 size_t list_len(const list_t *h)
 {
-  int elements = 0;
+int elements = 0;
 
-  while (h != NULL)
-  {
-    h = h->next;
-    elements++;
-  }
-  return (elements);
+while (h != NULL)
+{
+h = h->next;
+elements++;
+}
+return (elements);
 }
