@@ -1,11 +1,13 @@
 #include "holberton.h"
-
 /**
-* main - Entry point of a program
-*
-* Return:  always 0, because is succes
-*/
-void _puts(char *s)
+ *  _puts - Pritns
+ * description: _puts
+ *@str: pointer to s
+ * Return: 0
+ */
+void _puts(char *str)
 {
-	write(1, s, _strlen(s));
+while (*str)
+_putchar(*str++);
+_putchar('\n');
 }
